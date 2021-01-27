@@ -1,0 +1,55 @@
+body{
+  /* set the body's defaul margin to 0 */
+  margin: 0;
+}
+
+.nav{
+  /* adjust the navbar to be fixed and make sure buttons are centered (text-align) */
+  height: 100px;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+}
+.nav button{
+  /* adjust the size and position of the buttons within the navbar */
+  margin-top: 30px;
+  padding: 10px;
+
+}
+#background{
+  /* this pushed the background down 100 pixels to reveal the buttons. once the background becomes */
+  /* long enough to be scrolled, it scrolls under the buttons */
+  padding-top: 100px;
+}
+#background img{
+  /* this makes about 5 background images per row */
+  width:19%;
+
+}
+
+#change {
+  width:20%;
+  left: 100px;
+  top: 80px;
+}
+
+#foreground{
+  /* fixes the foreground for a ncie background scrolling effect
+  pushes it below the navbar (top)
+  amd assures the foreground box is centered (left, width) */
+  position: fixed;
+  top:80px;
+  left: 40%;
+  width:20%;
+}
+#foreground img{
+  /* adjust the size of the main image to the width of its containing element (#foreground) */
+  width: 100%;
+}
+
+#caption{
+  background-color: blue;
+  font-size: 3em;
+  color:white;
+  padding: 10px;
+}
