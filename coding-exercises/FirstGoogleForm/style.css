@@ -1,0 +1,28 @@
+.bar{
+  height: 50px;
+  background-color: black;
+  width: 100px;
+  padding-left: 5px;
+  margin-bottom: 3px;
+}
+
+.bar p{
+  color: white;
+  font-family: Impact;
+  font-size:20px;
+}
+h1{
+  text-align:center;
+  font-family:fantasy;
+
+}
+h2{
+  text-align: center;
+  font-family: 'Brush Script MT', cursive;
+  -webkit-text-stroke-width:0.25px;
+  -webkit-text-stroke-color:white;
+}
+body{
+  background-size: cover;
+  background-image: url("multi2.jpg");
+}
