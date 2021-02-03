@@ -52,6 +52,15 @@ let data = [
         "Sarah": 1,
         "Steve": 2,
         "Yihan": 5
+    },
+    {
+        "timestamp": "2021-02-02T16:00:10.537Z",
+        "Greg": 2,
+        "Jack": 4,
+        "Leslie": 5,
+        "Sarah": 5,
+        "Steve": 2,
+        "Yihan": 4
     }
 ]
 
