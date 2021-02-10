@@ -5,7 +5,7 @@ let viz = d3.select("#viz-container")
     .attr("id","viz")
     .attr("width", 600)
     .attr("height", 600)
-    .attr("fill", "white")
+
 ;
 //the div viz-container
 viz.attr("height", 400);
@@ -85,7 +85,6 @@ viz.selectAll("circle").data(greetingData).enter()
     .attr("cx",xLocation)
     .attr("cy", 200)
     .attr("r", changeSize)
-
     .attr("fill", changeColor)
 ;
 
@@ -95,7 +94,7 @@ function changeSize(datapoint){
 }
 
 function xLocation(datapoint){
-  return datapoint.differentVerbalGreetings*40;
+  return datapoint.differentVerbalGreetings*50;
 }
 
 function changeColor(datapoint){
@@ -105,16 +104,16 @@ function changeColor(datapoint){
   if (datapoint.person == "Addison"){
     return "orange";
   }
-  if (datapoint.person = "Dacey"){
+  if (datapoint.person == "Dacey"){
     return "yellow";
   }
-  if (datapoint.person = "Daniel"){
+  if (datapoint.person == "Daniel"){
     return "green";
   }
-  if (datapoint.person = "Isabella"){
+  if (datapoint.person == "Isabella"){
     return "blue";
   }
-  if (datapoint.person = "Shengli"){
+  if (datapoint.person == "Shengli"){
     return "purple";
   }
   if (datapoint.person == "Yifan"){
