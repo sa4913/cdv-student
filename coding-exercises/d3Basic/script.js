@@ -3,8 +3,8 @@
 let viz = d3.select("#viz-container")
   .append("svg")
     .attr("id","viz")
-    .attr("width", 600)
-    .attr("height", 600)
+    .attr("width", 900)
+    .attr("height", 900)
 
 ;
 //the div viz-container
@@ -94,7 +94,7 @@ function changeSize(datapoint){
 }
 
 function xLocation(datapoint){
-  return datapoint.differentVerbalGreetings*50;
+  return datapoint.differentVerbalGreetings*70;
 }
 
 function changeColor(datapoint){
