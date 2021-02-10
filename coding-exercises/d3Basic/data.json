@@ -1,0 +1,44 @@
+[
+  {
+    "person": "Yihan",
+    "frequency": 7,
+    "differentVerbalGreetings": 4,
+    "differentGesturesUsed": 4,
+  },
+  {
+    "person": "Addison",
+    "frequency": 3,
+    "differentVerbalGreetings": 2,
+    "differentGesturesUsed": 1,
+  },
+  {
+    "person": "Dacey",
+    "frequency": 2,
+    "differentVerbalGreetings": 2,
+    "differentGesturesUsed": 1,
+  },
+  {
+    "person": "Daniel",
+    "frequency": 2,
+    "differentVerbalGreetings": 2,
+    "differentGesturesUsed": 1,
+  },
+  {
+    "person": "Isabella",
+    "frequency": 2,
+    "differentVerbalGreetings": 1,
+    "differentGesturesUsed": 1,
+  },
+  {
+    "person": "Shengli",
+    "frequency": 2,
+    "differentVerbalGreetings": 1,
+    "differentGesturesUsed": 1,
+  },
+  {
+    "person": "Yifan",
+    "frequency": 2,
+    "differentVerbalGreetings": 1,
+    "differentGesturesUsed": 1,
+  }
+]
