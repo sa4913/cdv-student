@@ -1,4 +1,5 @@
 **Prompts:**
+
 *How to technical tools promise to fair out the remaining discrimination that exist in social/welfare systems? In how far can they succeed, in which ways do they fail?*
 
 *Imagine, what could this (following quote) mean in the widest sense? "The state doesn't need a cop to kill a person" and "electronic incarceration"*
@@ -9,6 +10,9 @@
 
 **Response:**
 
+Technical tools promise to make handing out benefits to those who need it more fair, however the data being used to train these models severely affect the outcome of the distribution. Often, these technical tools are deemed to be fair because they are computers with a lack of feelings, but often this lack of feeling also leads to disastrous effects of not seeing the social situation that would make a better decision. For example, in the Alleganie Family Screening tools, the algorithm was meant to find children that were in families that were more likely to abuse or neglect them. However, the algorithm began choosing only those living below the poverty line. While this algorithm was able to predict that these children were likely to be neglected, it did not consider whether or not the neglect was on purpose, or because of socioeconomic factors. This is also an example for the third prompt of "systems act as a kind of 'empathy overwrite'". The computer algorithm completely bulldozed the conditions in which the family is in. It failed to consider whether or not the family cares for the child and attempts to take care of their child. In addition, this lack of feeling also left many stranded in the Indiana Welfare Automation case. The algorithm determined who "really" needed the welfare, but millions were denied their benefits that did need the benefits to keep their family taken care of. Instead of being able to discuss with a social worker about the issue with a lack of access to welfare, this new system eliminated the relationship-based system of the family and the social worker and became inhumane with no chance for discrepancy.
+
+China has been expansive in the quest for using data to make life more convenient. Even so, problems arise with these algorithms with selection bias. For example, instead of having to have police patrolling the night and streets in their car, they can be sat while watching the surveillance cameras of each street and the station can let them know exactly where an incident is occurring. While this may seem money and life-saving, this also runs into issues as not all streets are surveilled so closely. When a drunk man was beating a woman outside the gates of the Jinqiao community (NYU Shanghai residence halls), when the police were called, they decided they would not respond to the situation because they could not see anything happen on the street. The incident instead had to be stopped by Resident Assistants of the residence hall and security guards of the community, putting their safety in danger. This system really did not consider the impact this could have if not every single street is so closely watched, the impact on the humans involved. How much more incidents are happening because of this selection bias?
 
 **Notes:**
 
