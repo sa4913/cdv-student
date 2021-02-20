@@ -13,7 +13,9 @@
 **Notes:**
 
 Notes on Trevor Paglen video
+
 white guy
+
 mass surveillance is no longer about just security cameras that are recording, but what happens when they record?
 "all of the unacknowledged"? just forgotten about or secret? (both?)
 images of what computer vision is seeing (us-mexico border example)
