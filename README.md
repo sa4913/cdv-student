@@ -8,9 +8,9 @@ Among other things, I will link to Coding Exercises and Projects:
 
 - [coding exercise (coding foundation)](coding-exercises/coding-foundation)
 - [coding exercise (Google Form JSON)](coding-exercise/FirstGoogleForm)
-- [reading reflection (Data Intro)](reading-reflections/README-DataIntro.md)
+- [reading reflection (Data Intro)](reading-reflections/DataIntro.md)
 - [coding exercise (D3 Intro)](coding-exercises/d3Basic)
-- [reading reflection (Data Bias)](reading-reflections/README-DataBias.md)
+- [reading reflection (Data Bias)](reading-reflections/DataBias.md)
 - ...
 
 
