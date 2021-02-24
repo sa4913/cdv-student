@@ -1,0 +1,82 @@
+[
+    {
+        "name": "Adam",
+        "frequency": 1,
+        "differentGesture": 1,
+        "differentVerbal": 1,
+        "differentResponse": 1,
+        "differentOutcomes": 1
+    },
+    {
+        "name": "Addison",
+        "frequency": 3,
+        "differentGesture": 1,
+        "differentVerbal": 2,
+        "differentResponse": 3,
+        "differentOutcomes": 2
+    },
+    {
+        "name": "Avery",
+        "frequency": 2,
+        "differentGesture": 1,
+        "differentVerbal": 2,
+        "differentResponse": 2,
+        "differentOutcomes": 1
+    },
+    {
+        "name": "Bobi",
+        "frequency": 2,
+        "differentGesture": 1,
+        "differentVerbal": 2,
+        "differentResponse": 2,
+        "differentOutcomes": 1
+    },
+    {
+        "name": "Brandon",
+        "frequency": 3,
+        "differentGesture": 1,
+        "differentVerbal": 2,
+        "differentResponse": 2,
+        "differentOutcomes": 2
+    },
+    {
+        "name": "Cheng",
+        "frequency": 2,
+        "differentGesture": 2,
+        "differentVerbal": 2,
+        "differentResponse": 2,
+        "differentOutcomes": 2
+    },
+    {
+        "name": "Cheung Jun",
+        "frequency": 2,
+        "differentGesture": 1,
+        "differentVerbal": 2,
+        "differentResponse": 2,
+        "differentOutcomes": 1
+    },
+    {
+        "name": "Cinny",
+        "frequency": 1,
+        "differentGesture": 1,
+        "differentVerbal": 1,
+        "differentResponse": 1,
+        "differentOutcomes": 1
+    },
+    {
+        "name": "Clara",
+        "frequency": 7,
+        "differentGesture": 3,
+        "differentVerbal": 5,
+        "differentResponse": 6,
+        "differentOutcomes": 6
+    },
+    {
+        "name": "Cleveland",
+        "frequency": 3,
+        "differentGesture": 2,
+        "differentVerbal": 3,
+        "differentResponse": 3,
+        "differentOutcomes": 3
+    }
+]

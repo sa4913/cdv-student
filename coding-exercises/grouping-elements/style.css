@@ -1,0 +1,12 @@
+body{
+  width, height: 100%;
+  margin: 0;
+}
+h1, h2{
+  text-align:center;
+}
+#viz{
+  /* border: 1px black solid; */
+  background-color: white;
+  padding-left: 30%;
+}
