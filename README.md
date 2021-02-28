@@ -12,6 +12,7 @@ Among other things, I will link to Coding Exercises and Projects:
 - [coding exercise (D3 Intro)](coding-exercises/d3Basic)
 - [reading reflection (Data Bias)](reading-reflections/DataBias.md)
 - [coding exercise (Grouping Elements)](coding-exercises/grouping-elements)
+- [reading reflection (Surveillance Capitalism)](reading-reflections/Surveillance-Capitalism)
 - ...
 
 

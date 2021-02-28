@@ -107,8 +107,6 @@ datagroups.append("text")
 ;
 datagroups.attr("transform", rectLocation);
 
-}
-
 function rectLocation(incomingData, i){
   let x = (i+1)*200;
   let y = 250;
@@ -186,4 +184,5 @@ function differentResponse(datapoint){
   }else if (l == 7){
     return "pink";
   }
+}
 }
