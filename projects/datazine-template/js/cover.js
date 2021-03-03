@@ -33,7 +33,7 @@ viz.append("text") //Hello
     .attr("font-size", 100)
     .attr("fill", "blue")
 ;
-viz.append("text") //Hello
+viz.append("text") //World
   .append("textPath")
     .attr("xlink:href", "#worldPath")
     .style("text-anchor", "beginning")
