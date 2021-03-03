@@ -32,7 +32,6 @@ viz.append("text") //Hello
     .text("Hello")
     .attr("font-size", 100)
     .attr("fill", "blue")
-
 ;
 viz.append("text") //Hello
   .append("textPath")
