@@ -13,7 +13,7 @@ Among other things, I will link to Coding Exercises and Projects:
 - [reading reflection (Data Bias)](reading-reflections/DataBias.md)
 - [coding exercise (Grouping Elements)](coding-exercises/grouping-elements)
 - [reading reflection (Surveillance Capitalism)](reading-reflections/Surveillance-Capitalism)
-- [project (Data Zine Work in Progress)](projects/datazine-template)
+- [project (Data Zine Work in Progress)](projects/datazine-template/cover.html)
 - ...
 
 
