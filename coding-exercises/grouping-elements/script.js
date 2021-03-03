@@ -121,10 +121,10 @@ function text(incomingData){
   return ""+incomingData.name;
 }
 function textXLocation(incomingData){
-  return incomingData.frequency /20
+  return incomingData.frequency /20;
 }
 function textYLocation(incomingData){
-  return incomingData.frequency * 20
+  return incomingData.frequency * 20;
 }
 // a--fill color of circle
 // differentGesture
