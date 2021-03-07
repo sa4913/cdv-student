@@ -1,5 +1,6 @@
 let w = 1200;
 let h = 800;
+let distance = 200;
 
 let viz = d3.select("#container")
   .append("svg")
@@ -11,6 +12,9 @@ let viz = d3.select("#container")
 let spiral = viz.append("g").attr("class", "spiral");
 spiral.attr("transform","translate("+(w-1000)+","+((h/2)+300)+")")
 
+function starPlacement(){
+  return "translate("+(2*w)/3+","+200+")"
+}
 
 function spiralPosition(d, i, secretThirdParameter){
 
@@ -71,11 +75,12 @@ function gotData(incomingData){
       .attr("r", 5)
   ;
 
+
   datagroups.attr("transform", spiralPosition)
 
 
 }
-viz.append("line")
+viz.append("line") //sprial line
   .attr("x1",w-1000)
   .attr("y1",((h/2)+300))
   .attr("x2",600)
@@ -83,8 +88,47 @@ viz.append("line")
   .style("stroke", "black")
   .style("stroke-width", 1)
 ;
+viz.append("line") // y axis
+  .attr("class", "star")
+  .attr("x1", 0)
+  .attr("y1", 0)
+  .attr("x2", 0)
+  .attr("y2", distance)
+  .style("stroke", "black")
+  .style("stroke-width", 2)
+;
+viz.append("line") // x axis
+  .attr("class", "star")
+  .attr("x1", -distance/2)
+  .attr("y1", distance/2)
+  .attr("x2", distance/2)
+  .attr("y2", distance/2)
+  .style("stroke", "black")
+  .style("stroke-width", 2)
+;
+viz.append("line") // y = x
+  .attr("class", "star")
+  .attr("x1", -distance/2)
+  .attr("y1", distance)
+  .attr("x2", distance/2)
+  .attr("y2", 0)
+  .style("stroke", "black")
+  .style("stroke-width", 2)
+;
+viz.append("line") // y = - x
+  .attr("class", "star")
+  .attr("x1", -distance/2)
+  .attr("y1", 0)
+  .attr("x2", distance/2)
+  .attr("y2", distance)
+  .style("stroke", "black")
+  .style("stroke-width", 2)
+;
+let stars = viz.selectAll(".star");
+stars.attr("transform", starPlacement)
+
 viz.append("text")
-  .text("Closer to the center = higher frequency of greeting")
+  .text("Closer to the center = lower frequency of greeting")
   .attr("font-size", 25)
   .attr("fill", "black")
   .attr("x", 602)
