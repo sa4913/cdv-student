@@ -13,13 +13,13 @@ Among other things, I will link to Coding Exercises and Projects:
 - [reading reflection (Data Bias)](reading-reflections/DataBias.md)
 - [coding exercise (Grouping Elements)](coding-exercises/grouping-elements)
 - [project (Data Zine paper prototype)](projects/DataZine Prototype.pdf)
-- [reading reflection (Surveillance Capitalism)](reading-reflections/Surveillance-Capitalism)
+- [reading reflection (Surveillance Capitalism)](reading-reflections/Surveillance-Capitalism.md)
 - [project (Data Zine Work in Progress)](projects/datazine-template/cover.html)
 - [project (Final Data Zine)](projects/FinalDataZine/cover.html)
+- [reading reflection (Prediction & Uncertainty)](reading-reflections/Prediction&Uncertainty.md)
 - ...
 
 
 ---
 #### About this file
 This README.md file is written in Markdown syntax - here is a quick [intro](https://guides.github.com/features/mastering-markdown/).
- 
