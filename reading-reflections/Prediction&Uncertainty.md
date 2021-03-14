@@ -1,5 +1,12 @@
 Prompts
+Collect your thoughts on Prediction and its role in the three above sources. Formulate a short response (250-400 words). Your associations, opinions and ideas may (not obligatory) be complemented by reflections on
+"collective average vs individual fate",
+"statistic vs. algorithmic prediction" or
+"social physics"
 
+Response to Prompts
+I think Prediction is quite a dangerous tool when it comes to be used for the fate of an individual because there is a lot of uncertainty that comes with being an individual. There is not enough data about the individual person to know exactly what the person will do. While someone may have my schedule for the day, I could end up late for a meeting because of missing the only elevator in my building. This little pocket of uncertainty is dangerous to the prediction of individual fate because it questions the accuracy of the prediction. However, I think Prediction is a good tool to be used for the collective average because it is able to determine the typical amount of things to happen and able to compare the collective to the average. The collective average can also be used to track loss or growth over time. It's an important tool to look at the growth or loss in collective average because it can make a better understanding of the population.
+I feel that Prediction in regard to statistics is more reliable for people to understand because it comes from more concrete data than the algorithmic prediction. When the algorithm is fed data, it is only drawing from that which can include biases. The statistics prediction is always updating as more data is provided to be more accurate than having an algorithm auto-update its own data for better prediction. This can be seen with many of the bots that Twitter bot have turned to the use the bias data of people using Twitter to produce tweets similar to those of users without checking into the data the algorithm is being fed to make those predictive typical tweets.
 
 Notes on Statistics
 well-respected man more like well-respected murderer
