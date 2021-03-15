@@ -17,6 +17,7 @@ Among other things, I will link to Coding Exercises and Projects:
 - [project (Data Zine Work in Progress)](projects/datazine-template/cover.html)
 - [project (Final Data Zine)](projects/FinalDataZine/cover.html)
 - [reading reflection (Prediction & Uncertainty)](reading-reflections/Prediction&Uncertainty.md)
+- [reading reflection (Two Data Stories)](reading-reflections/TwoDataStories.md)
 - ...
 
 
