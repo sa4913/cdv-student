@@ -12,7 +12,7 @@ Among other things, I will link to Coding Exercises and Projects:
 - [coding exercise (D3 Intro)](coding-exercises/d3Basic)
 - [reading reflection (Data Bias)](reading-reflections/DataBias.md)
 - [coding exercise (Grouping Elements)](coding-exercises/grouping-elements)
-- [project (Data Zine paper prototype)](projects/dataxine-template/DataZine Prototype.pdf)
+- [project (Data Zine paper prototype)](projects/datazine-template/DataZine Prototype.pdf)
 - [reading reflection (Surveillance Capitalism)](reading-reflections/Surveillance-Capitalism.md)
 - [project (Data Zine Work in Progress)](projects/datazine-template/cover.html)
 - [project (Final Data Zine)](projects/FinalDataZine/cover.html)
