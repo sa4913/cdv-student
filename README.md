@@ -19,7 +19,7 @@ Among other things, I will link to Coding Exercises and Projects:
 - [reading reflection (Prediction & Uncertainty)](reading-reflections/Prediction&Uncertainty.md)
 - [reading reflection (Two Data Stories)](reading-reflections/TwoDataStories.md)
 - [project (Three Good Datasets)](projects/DataStoryContextualReport/ThreeGoodDataSets.md)
-- [coding exercise (Rosling Graph)](coding-exercises/rosling=start/index.html)
+- [coding exercise (Rosling Graph)](coding-exercises/rosling-start/index.html)
 - ...
 
 
