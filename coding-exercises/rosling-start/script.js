@@ -10,7 +10,7 @@ let viz = d3.select("#container")
   .append("svg")
     .attr("width", w)
     .attr("height", h)
-    .style("background-color", "lavender")
+    .style("background-color", "lightskyblue")
 ;
 
 
@@ -31,6 +31,7 @@ function gotData(incomingData){
 
   // min max life expectancy
   let lifeExtent = d3.extent(incomingData, (d, i) => d.life);
+
   console.log("lifeExtent", lifeExtent);
 
   // make the yscale which we use to locate points along the yaxis
@@ -107,7 +108,7 @@ function gotData(incomingData){
         .attr("class", "datagroup")
     ;
 
-    let cicles = enteringElements
+    let circles = enteringElements
       .append("circle")
         .attr("cx", 0)
         .attr("cy", 0)
@@ -121,7 +122,7 @@ function gotData(incomingData){
         .text((d, i) => d.Country)
         .attr("x", 0)
         .attr("y", 0)
-        .attr("fill", "darkgreen")
+        .attr("fill", "steelblue")
         .attr("font-size", "0.9em")
         .attr("font-family", "Helvetica")
     ;
@@ -150,15 +151,15 @@ function gotData(incomingData){
 
   function getContinentColor(d, i){
     if (d.continent === "Asia") {
-      return "red"
+      return "pink"
     } else if (d.continent === "Europe") {
-      return "blue"
+      return "mediumpurple"
     } else if (d.continent === "Africa") {
-      return "darkgreen"
+      return "lavender"
     } else if (d.continent === "Americas") {
-      return "palegreen"
+      return "springgreen"
     } else { //Oceania
-      return "yellow"
+      return "coral"
     }
   }
 
@@ -169,6 +170,7 @@ function gotData(incomingData){
       .attr("y", h-100)
       .attr("font-family", "sans-serif")
       .attr("font-size", "2.7em")
+      .attr("fill", "white")
 
   ;
 
@@ -208,10 +210,13 @@ d3.csv("data.csv").then(gotData);
 // the only reasons these are down here is to make the code above look less polluted
 
 function buildXAndYAxis(xScale, yScale){
+
   let xAxisGroup = viz.append("g").attr("class", 'xaxis');
   let xAxis = d3.axisBottom(xScale);
+
   xAxisGroup.call(xAxis)
   xAxisGroup.attr("transform", "translate(0, "+ (h-yPadding) +")")
+  xAxisGroup.attr("fill", "white")
   xAxisGroup.append("g").attr('class', 'xLabel')
     .attr("transform", "translate("+w/2+", 40)")
     .append("text")
@@ -226,6 +231,7 @@ function buildXAndYAxis(xScale, yScale){
   let yAxis = d3.axisLeft(yScale);
   yAxisGroup.call(yAxis)
   yAxisGroup.attr("transform", "translate("+xPadding+", 0)")
+  yAxisGroup.attr("fill", "white")
 
   yAxisGroup.append("g").attr('class', 'xLabel')
     .attr("transform", "translate(-33, "+h/2+") rotate(-90)")
