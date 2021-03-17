@@ -20,6 +20,7 @@ Among other things, I will link to Coding Exercises and Projects:
 - [reading reflection (Two Data Stories)](reading-reflections/TwoDataStories.md)
 - [project (Three Good Datasets)](projects/DataStoryContextualReport/ThreeGoodDataSets.md)
 - [coding exercise (Rosling Graph)](coding-exercises/rosling-start/index.html)
+- [coding exercise (Mastering Transitions)](coding-exercises/lab7-start/index.html)
 - ...
 
 
