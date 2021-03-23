@@ -12,9 +12,11 @@ from: https://color.adobe.com/720ab200490a8131a4a9aa7749902173-color-theme-13470
 body{
   margin:0;
   margin-top:30px;
+  background-color: lightskyblue;
 }
 #container{
   text-align: center;
+
 }
 #buttons{
   display: flex;
@@ -40,26 +42,26 @@ body{
   /* blur edges of buttons:
   https://stackoverflow.com/questions/15775365/how-to-blur-div-edges */
 #buttonA{
-  background-color: #F27294;
-  box-shadow: 0 0 10px 10px #F27294;
+  background-color: #031476;
+  box-shadow: 0 0 10px 10px #031476;
 }
 #buttonB{
-  background-color: #04ADBF;
-  box-shadow: 0 0 10px 10px #04ADBF;
+  background-color: #0352C0;
+  box-shadow: 0 0 10px 10px #0352C0;
 }
 #buttonC{
-  background-color: #45BF9D;
-  box-shadow: 0 0 10px 10px #45BF9D;
+  background-color: #0595F2;
+  box-shadow: 0 0 10px 10px #0595F2;
 }
 #buttonD{
-  background-color: #F2E0D5;
-  box-shadow: 0 0 10px 10px #F2E0D5;
+  background-color: #03AEF5;
+  box-shadow: 0 0 10px 10px #03AEF5;
 }
 #buttonE{
-  background-color: #F24C27;
-  box-shadow: 0 0 10px 10px #F24C27;
+  background-color: #04C7F3;
+  box-shadow: 0 0 10px 10px #04C7F3;
 }
 #buttonF{
-  background-color: black;
-  box-shadow: 0 0 10px 10px black;
+  background-color: lightblue;
+  box-shadow: 0 0 10px 10px lightblue;
 }
