@@ -21,6 +21,7 @@ Among other things, I will link to Coding Exercises and Projects:
 - [project (Three Good Datasets)](projects/DataStoryContextualReport/ThreeGoodDataSets.md)
 - [coding exercise (Rosling Graph)](coding-exercises/rosling-start/index.html)
 - [coding exercise (Mastering Transitions)](coding-exercises/lab7-start/index.html)
+- [project (Research Outline)](projects/Research-Outline/JEOPARDY_QUESTIONS1.json)
 - ...
 
 
