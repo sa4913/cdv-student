@@ -22,7 +22,7 @@ Among other things, I will link to Coding Exercises and Projects:
 - [coding exercise (Rosling Graph)](coding-exercises/rosling-start/index.html)
 - [coding exercise (Mastering Transitions)](coding-exercises/lab7-start/index.html)
 - [project (Research Outline)](projects/Research-Outline/JEOPARDY_QUESTIONS1.json)
-- [coding exercise (Line Graph)](coding-exercises/line-2-start/index.html)
+- [coding exercise (Line Graph)](coding-exercises/line-exercise/line-2-start/index.html)
 - ...
 
 
