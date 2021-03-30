@@ -1,14 +1,21 @@
 button{
   width:300px;
   height: 50px;
+  color:white;
+  font-weight: bold;
 }
 #usa{
   background-color: blue;
 }
+#usa:hover{
+  background-color: green;
+}
 #china{
   background-color: red;
 }
-button{
-  color:white;
-  font-weight: bold;
+#china:hover{
+  background-color: green;
+}
+button:hover{
+  cursor: pointer;
 }
