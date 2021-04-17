@@ -1,39 +1,5 @@
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // Please do not make changes to this file
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 let docw = 1200;
