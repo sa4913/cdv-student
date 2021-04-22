@@ -1,0 +1,190 @@
+"County","FIPS","Year","Gender","Age Cohort","Variable","Measure Type","Value"
+
+"Connecticut","09",2015,"All","Total","Projected Population","Number",3644545
+"Connecticut","09",2015,"All","Total","Projected Population","Percent",100
+"Connecticut","09",2015,"Female","Total","Projected Population","Number",1867944
+"Connecticut","09",2015,"Female","Total","Projected Population","Percent",51.25
+"Connecticut","09",2015,"Male","Total","Projected Population","Number",1776601
+"Connecticut","09",2015,"Male","Total","Projected Population","Percent",48.75
+
+"Connecticut","09",2020,"All","Total","Projected Population","Number",3702469
+"Connecticut","09",2020,"All","Total","Projected Population","Percent",100
+"Connecticut","09",2020,"Female","Total","Projected Population","Number",1896225
+"Connecticut","09",2020,"Female","Total","Projected Population","Percent",51.2
+"Connecticut","09",2020,"Male","Total","Projected Population","Number",1806244
+"Connecticut","09",2020,"Male","Total","Projected Population","Percent",48.78
+
+"Connecticut", "09", 2025, "All", "Total", "Projected Population", "Number",3746181
+"Connecticut", "09", 2025, "All", "Total", "Projected Population", "Percent",100
+"Connecticut","09",2025,"Female","Total","Projected Population","Number",1918862
+"Connecticut","09",2025,"Female","Total","Projected Population","Percent",51.22
+"Connecticut","09",2025,"Male","Total","Projected Population","Number",1827319
+"Connecticut","09",2025,"Male","Total","Projected Population","Percent",48.78
+
+"Fairfield County","09001",2015,"All","Total","Projected Population","Number",932377
+"Fairfield County","09001",2015,"All","Total","Projected Population","Percent",25.58
+"Fairfield County","09001",2015,"Female","Total","Projected Population","Number",478198
+"Fairfield County","09001",2015,"Female","Total","Projected Population","Percent",51.29
+"Fairfield County","09001",2015,"Male","Total","Projected Population","Number",454179
+"Fairfield County","09001",2015,"Male","Total","Projected Population","Percent",48.71
+
+"Fairfield County","09001",2020,"All","Total","Projected Population","Number",944692
+"Fairfield County","09001",2020,"All","Total","Projected Population","Percent",25.52
+"Fairfield County","09001",2020,"Female","Total","Projected Population","Number",483750
+"Fairfield County","09001",2020,"Female","Total","Projected Population","Percent",51.21
+"Fairfield County","09001",2020,"Male","Total","Projected Population","Number",460942
+"Fairfield County","09001",2020,"Male","Total","Projected Population","Percent",48.79
+
+"Fairfield County","09001",2025,"All","Total","Projected Population","Number",954479
+"Fairfield County","09001",2025,"All","Total","Projected Population","Percent",25.48
+"Fairfield County","09001",2025,"Female","Total","Projected Population","Number",488310
+"Fairfield County","09001",2025,"Female","Total","Projected Population","Percent",51.16
+"Fairfield County","09001",2025,"Male","Total","Projected Population","Number",466169
+"Fairfield County","09001",2025,"Male","Total","Projected Population","Percent",48.84
+
+"Hartford County","09003",2015,"All","Total","Projected Population","Number",910924
+"Hartford County","09003",2015,"All","Total","Projected Population","Percent",24.99
+"Hartford County","09003",2015,"Female","Total","Projected Population","Number",470165
+"Hartford County","09003",2015,"Female","Total","Projected Population","Percent",51.61
+"Hartford County","09003",2015,"Male","Total","Projected Population","Number",440759
+"Hartford County","09003",2015,"Male","Total","Projected Population","Percent",48.39
+
+"Hartford County","09003",2020,"All","Total","Projected Population","Number",925492
+"Hartford County","09003",2020,"All","Total","Projected Population","Percent",25
+"Hartford County","09003",2020,"Female","Total","Projected Population","Number",477295
+"Hartford County","09003",2020,"Female","Total","Projected Population","Percent",51.57
+"Hartford County","09003",2020,"Male","Total","Projected Population","Number",448197
+"Hartford County","09003",2020,"Male","Total","Projected Population","Percent",48.43
+
+"Hartford County","09003",2025,"All","Total","Projected Population","Number",936810
+"Hartford County","09003",2025,"All","Total","Projected Population","Percent",25.01
+"Hartford County","09003",2025,"Female","Total","Projected Population","Number",483109
+"Hartford County","09003",2025,"Female","Total","Projected Population","Percent",51.57
+"Hartford County","09003",2025,"Male","Total","Projected Population","Number",453701
+"Hartford County","09003",2025,"Male","Total","Projected Population","Percent",48.43
+
+"Litchfield County","09005",2015,"All","Total","Projected Population","Number",192188
+"Litchfield County","09005",2015,"All","Total","Projected Population","Percent",5.27
+"Litchfield County","09005",2015,"Female","Total","Projected Population","Number",97600
+"Litchfield County","09005",2015,"Female","Total","Projected Population","Percent",50.78
+"Litchfield County","09005",2015,"Male","Total","Projected Population","Number",94588
+"Litchfield County","09005",2015,"Male","Total","Projected Population","Percent",49.22
+
+"Litchfield County","09005",2020,"All","Total","Projected Population","Number",193116
+"Litchfield County","09005",2020,"All","Total","Projected Population","Percent",5.22
+"Litchfield County","09005",2020,"Female","Total","Projected Population","Number",98081
+"Litchfield County","09005",2020,"Female","Total","Projected Population","Percent",50.79
+"Litchfield County","09005",2020,"Male","Total","Projected Population","Number",95035
+"Litchfield County","09005",2020,"Male","Total","Projected Population","Percent",49.21
+
+"Litchfield County","09005",2025,"All","Total","Projected Population","Number",193112
+"Litchfield County","09005",2025,"All","Total","Projected Population","Percent",5.15
+"Litchfield County","09005",2025,"Female","Total","Projected Population","Number",98218
+"Litchfield County","09005",2025,"Female","Total","Projected Population","Percent",50.86
+"Litchfield County","09005",2025,"Male","Total","Projected Population","Number",94894
+"Litchfield County","09005",2025,"Male","Total","Projected Population","Percent",49.14
+
+"Middlesex County","09007",2015,"All","Total","Projected Population","Number",168833
+"Middlesex County","09007",2015,"All","Total","Projected Population","Percent",4.63
+"Middlesex County","09007",2015,"Female","Total","Projected Population","Number",86401
+"Middlesex County","09007",2015,"Female","Total","Projected Population","Percent",51.18
+"Middlesex County","09007",2015,"Male","Total","Projected Population","Number",82432
+"Middlesex County","09007",2015,"Male","Total","Projected Population","Percent",48.82
+
+"Middlesex County","09007",2020,"All","Total","Projected Population","Number",170518
+"Middlesex County","09007",2020,"All","Total","Projected Population","Percent",4.61
+"Middlesex County","09007",2020,"Female","Total","Projected Population","Number",87377
+"Middlesex County","09007",2020,"Female","Total","Projected Population","Percent",51.24
+"Middlesex County","09007",2020,"Male","Total","Projected Population","Number",83141
+"Middlesex County","09007",2020,"Male","Total","Projected Population","Percent",48.76
+
+"Middlesex County","09007",2025,"All","Total","Projected Population","Number",170976
+"Middlesex County","09007",2025,"All","Total","Projected Population","Percent",4.56
+"Middlesex County","09007",2025,"Female","Total","Projected Population","Number",87808
+"Middlesex County","09007",2025,"Female","Total","Projected Population","Percent",51.36
+"Middlesex County","09007",2025,"Male","Total","Projected Population","Number",83168
+"Middlesex County","09007",2025,"Male","Total","Projected Population","Percent",48.64
+
+"New Haven County","09009",2015,"All","Total","Projected Population","Number",881374
+"New Haven County","09009",2015,"All","Total","Projected Population","Percent",24.18
+"New Haven County","09009",2015,"Female","Total","Projected Population","Number",456449
+"New Haven County","09009",2015,"Female","Total","Projected Population","Percent",51.79
+"New Haven County","09009",2015,"Male","Total","Projected Population","Number",424925
+"New Haven County","09009",2015,"Male","Total","Projected Population","Percent",48.21
+
+"New Haven County","09009",2020,"All","Total","Projected Population","Number",898514
+"New Haven County","09009",2020,"All","Total","Projected Population","Percent",24.27
+"New Haven County","09009",2020,"Female","Total","Projected Population","Number",464896
+"New Haven County","09009",2020,"Female","Total","Projected Population","Percent",51.74
+"New Haven County","09009",2020,"Male","Total","Projected Population","Number",433618
+"New Haven County","09009",2020,"Male","Total","Projected Population","Percent",48.26
+
+"New Haven County","09009",2025,"All","Total","Projected Population","Number",912056
+"New Haven County","09009",2025,"All","Total","Projected Population","Percent",24.35
+"New Haven County","09009",2025,"Female","Total","Projected Population","Number",471969
+"New Haven County","09009",2025,"Female","Total","Projected Population","Percent",51.75
+"New Haven County","09009",2025,"Male","Total","Projected Population","Number",440087
+"New Haven County","09009",2025,"Male","Total","Projected Population","Percent",48.25
+
+"New London County","09011",2015,"All","Total","Projected Population","Number",279755
+"New London County","09011",2015,"All","Total","Projected Population","Percent",7.68
+"New London County","09011",2015,"Female","Total","Projected Population","Number",139766
+"New London County","09011",2015,"Female","Total","Projected Population","Percent",49.96
+"New London County","09011",2015,"Male","Total","Projected Population","Number",139989
+"New London County","09011",2015,"Male","Total","Projected Population","Percent",50.04
+
+"New London County","09011",2020,"All","Total","Projected Population","Number",283665
+"New London County","09011",2020,"All","Total","Projected Population","Percent",7.66
+"New London County","09011",2020,"Female","Total","Projected Population","Number",141516
+"New London County","09011",2020,"Female","Total","Projected Population","Percent",49.89
+"New London County","09011",2020,"Male","Total","Projected Population","Number",142149
+"New London County","09011",2020,"Male","Total","Projected Population","Percent",50.11
+
+"New London County","09011",2025,"All","Total","Projected Population","Number",285773
+"New London County","09011",2025,"All","Total","Projected Population","Percent",7.63
+"New London County","09011",2025,"Female","Total","Projected Population","Number",142497
+"New London County","09011",2025,"Female","Total","Projected Population","Percent",49.86
+"New London County","09011",2025,"Male","Total","Projected Population","Number",143276
+"New London County","09011",2025,"Male","Total","Projected Population","Percent",50.14
+
+"Tolland County","09013",2015,"All","Total","Projected Population","Number",155924
+"Tolland County","09013",2015,"All","Total","Projected Population","Percent",4.28
+"Tolland County","09013",2015,"Female","Total","Projected Population","Number",77523
+"Tolland County","09013",2015,"Female","Total","Projected Population","Percent",49.72
+"Tolland County","09013",2015,"Male","Total","Projected Population","Number",78401
+"Tolland County","09013",2015,"Male","Total","Projected Population","Percent",50.28
+
+"Tolland County","09013",2020,"All","Total","Projected Population","Number",158606
+"Tolland County","09013",2020,"All","Total","Projected Population","Percent",4.28
+"Tolland County","09013",2020,"Female","Total","Projected Population","Number",79255
+"Tolland County","09013",2020,"Female","Total","Projected Population","Percent",49.97
+"Tolland County","09013",2020,"Male","Total","Projected Population","Number",79351
+"Tolland County","09013",2020,"Male","Total","Projected Population","Percent",50.03
+
+"Tolland County","09013",2025,"All","Total","Projected Population","Number",160759
+"Tolland County","09013",2025,"All","Total","Projected Population","Percent",4.29
+"Tolland County","09013",2025,"Female","Total","Projected Population","Number",80773
+"Tolland County","09013",2025,"Female","Total","Projected Population","Percent",50.24
+"Tolland County","09013",2025,"Male","Total","Projected Population","Number",79986
+"Tolland County","09013",2025,"Male","Total","Projected Population","Percent",49.76
+
+"Windham County","09015",2015,"All","Total","Projected Population","Number",122718
+"Windham County","09015",2015,"All","Total","Projected Population","Percent",3.37
+"Windham County","09015",2015,"Female","Total","Projected Population","Number",61618
+"Windham County","09015",2015,"Female","Total","Projected Population","Percent",50.21
+"Windham County","09015",2015,"Male","Total","Projected Population","Number",61100
+"Windham County","09015",2015,"Male","Total","Projected Population","Percent",49.79
+
+"Windham County","09015",2020,"All","Total","Projected Population","Number",126432
+"Windham County","09015",2020,"All","Total","Projected Population","Percent",3.41
+"Windham County","09015",2020,"Female","Total","Projected Population","Number",63312
+"Windham County","09015",2020,"Female","Total","Projected Population","Percent",50.08
+"Windham County","09015",2020,"Male","Total","Projected Population","Number",63120
+"Windham County","09015",2020,"Male","Total","Projected Population","Percent",49.92
+
+"Windham County","09015",2025,"All","Total","Projected Population","Number",129527
+"Windham County","09015",2025,"All","Total","Projected Population","Percent",3.46
+"Windham County","09015",2025,"Female","Total","Projected Population","Number",64763
+"Windham County","09015",2025,"Female","Total","Projected Population","Percent",50
+"Windham County","09015",2025,"Male","Total","Projected Population","Number",64764
+"Windham County","09015",2025,"Male","Total","Projected Population","Percent",50
