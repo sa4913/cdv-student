@@ -1513,7 +1513,7 @@
       },
       "type": "Feature",
       "properties": {
-        "NAME": "Fairfield",
+        "NAME": "Fairfield County",
         "LSAD": "County",
         "CENSUSAREA": 624.89,
         "GEO_ID": "0500000US09001",
@@ -2480,7 +2480,7 @@
       },
       "type": "Feature",
       "properties": {
-        "NAME": "Hartford",
+        "NAME": "Hartford County",
         "LSAD": "County",
         "CENSUSAREA": 735.097,
         "GEO_ID": "0500000US09003",
@@ -3271,7 +3271,7 @@
       },
       "type": "Feature",
       "properties": {
-        "NAME": "Litchfield",
+        "NAME": "Litchfield County",
         "LSAD": "County",
         "CENSUSAREA": 920.56,
         "GEO_ID": "0500000US09005",
@@ -4286,7 +4286,7 @@
       },
       "type": "Feature",
       "properties": {
-        "NAME": "Middlesex",
+        "NAME": "Middlesex County",
         "LSAD": "County",
         "CENSUSAREA": 369.301,
         "GEO_ID": "0500000US09007",
@@ -6281,7 +6281,7 @@
       },
       "type": "Feature",
       "properties": {
-        "NAME": "New Haven",
+        "NAME": "New Haven County",
         "LSAD": "County",
         "CENSUSAREA": 604.506,
         "GEO_ID": "0500000US09009",
@@ -7384,7 +7384,7 @@
       },
       "type": "Feature",
       "properties": {
-        "NAME": "New London",
+        "NAME": "New London County",
         "LSAD": "County",
         "CENSUSAREA": 664.878,
         "GEO_ID": "0500000US09011",
@@ -8207,7 +8207,7 @@
       },
       "type": "Feature",
       "properties": {
-        "NAME": "Tolland",
+        "NAME": "Tolland County",
         "LSAD": "County",
         "CENSUSAREA": 410.214,
         "GEO_ID": "0500000US09013",
@@ -8726,7 +8726,7 @@
       },
       "type": "Feature",
       "properties": {
-        "NAME": "Windham",
+        "NAME": "Windham County",
         "LSAD": "County",
         "CENSUSAREA": 512.91,
         "GEO_ID": "0500000US09015",

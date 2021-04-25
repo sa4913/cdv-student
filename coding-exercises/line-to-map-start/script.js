@@ -12,7 +12,7 @@ let viz = d3.select("#container").append("svg")
 
 // IMPORT DATA
 d3.json("ctcounties.geojson").then(function(geoData){
-  d3.csv("china-pop-2018.csv").then(function(incomingData){
+  d3.csv("populationprojectionsbycounty2017.csv").then(function(incomingData){
 
     //turn population string into numbers
     //so we can compare the min value
@@ -61,27 +61,27 @@ d3.json("ctcounties.geojson").then(function(geoData){
     let pathMaker = d3.geoPath(projection);
 
     // CREATE SHAPES ON THE PAGE!
-    viz.selectAll(".province").data(geoData.features).enter()
+    viz.selectAll(".county").data(geoData.features).enter()
       .append("path")
-        .attr("class", "province")
+        .attr("class", "county")
         .attr("d", pathMaker)
         .attr("fill", function(d, i){
-          console.log(d.properties.name);
+          console.log(d.properties.NAME);
 
           //see if d.properties.name is in incomingData
           //filter() will always return an array
           //find() will return the first result of the filtering
           let correspondingDatapoint = incomingData.find(function(datapoint){
             //console.log(datapoint);
-            if (datapoint.province === d.properties.name) {
+            if (datapoint.county === d.properties.NAME) {
               return true
             } else {
               return false
             }
           });
           if (correspondingDatapoint != undefined) {
-            console.log(correspondingDatapoint.population);
-            return colorScale(correspondingDatapoint.population)
+            console.log(correspondingDatapoint.value);
+            return colorScale(correspondingDatapoint.value)
           } else {
             return "black"
           }
