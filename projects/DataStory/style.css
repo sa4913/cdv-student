@@ -1,9 +1,21 @@
 .objecttable td {
   padding: 8px;
+}
+th{
+  width: 300px;
+}
 
-
+tr{
+  text-align:center;
+  height: 100px;
 }
 
 table {
   font-size: 40px;
+}
+
+.objecttable {
+  padding: 100px;
+  padding-left: 15%;
+  
 }
