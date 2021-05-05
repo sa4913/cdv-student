@@ -3,20 +3,33 @@
   <head>
     <meta charset="utf-8">
     <title>Final Jeopardy</title>
-
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon"
+      type="image/jpg"
+      id="favicon"
+      href="images/jLogo.jpg">
     <!-- include the d3 library -->
     <script src="https://d3js.org/d3.v5.min.js"></script>
 
 
   </head>
   <body>
-
     <div id="container">
 
 
     </div>
+    <div id="selection">
+    <label for="demographic">Choose demographic to test:</label>
+  	  <select name="demographic" id="demographic">
+  	    <option value="gender">Gender</option>
+  	    <option value="ageRange">Age Range</option>
+  	    <option value="location">Location</option>
+
+  	  </select>
+      <button type="button" onclick="demographicFunction()">Select Demographic</button>
 
 
+    </div>
     <script type="text/javascript" src="js/final.js"></script>
   </body>
 </html>
