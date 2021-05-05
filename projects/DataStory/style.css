@@ -39,19 +39,19 @@ body {
 }
 /* Tooltip container */
 .tooltip {
-  position: relative;
-  display: inline-block;
-  border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+  /* position: relative;
+  display: inline-block; */
+  /* border-bottom: 1px dotted black;  If you want dots under the hoverable text */
 }
 
 /* Tooltip text */
-.tooltip .tooltiptext {
-  visibility: hidden;
+.tooltip .tooltiptex {
+
   width: 120px;
   background-color: black;
   color: #fff;
   text-align: center;
-  padding: 5px 0;
+  padding: 8px;
   border-radius: 6px;
 
   /* Position the tooltip text - see examples below! */
