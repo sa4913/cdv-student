@@ -63,3 +63,7 @@ body {
 .tooltip:hover .tooltiptext {
   visibility: visible;
 }
+
+button:hover{
+  cursor:pointer;
+}

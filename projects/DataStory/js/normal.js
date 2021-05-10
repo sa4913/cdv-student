@@ -87,7 +87,7 @@ d3.csv(sheet, function(data) {
     .append("rect")
       .attr("x", function(d) { return x(d.Row) })
       .attr("y", function(d) { return y(d.Column) })
-      .attr("width", 100 )
+      .attr("width", 75)
       .attr("height", 50)
       .style("fill", function(d) { return myColor(d.NumberOfTimes)} )
 			.style("stroke", "gray")
