@@ -34,3 +34,5 @@ var tools = [
          // .data(tools)
          return tools[i]; })
        .text(function(d) { return d; });
+
+  
