@@ -9,16 +9,18 @@
       href="images/jLogo.jpg">
     <link rel="stylesheet" href="dailyDouble.css" type="text/css" media="screen" />
     <!-- include the d3 library -->
-    <script src="https://d3js.org/d3.v3.min.js"></script>
-    <script src="https://d3js.org/queue.v1.min.js"></script>
+    <script src="https://d3js.org/d3.v4.js"></script>
+
 
 
   </head>
   <body>
 
-    <div id="main-wrapper">
+    <div id="container">
     </div>
-    
+    <button type="button" onclick="changeSheet('NormalData/Season2.csv')">Two</button>
+    <button type="button" onclick="changeSheet('NormalData/Season1.csv')">One</button>
+
     <script type="text/javascript" src="js/normal.js"></script>
   </body>
 </html>
