@@ -33,7 +33,7 @@ svg.append("g")
 
 // Build X scales and axis:
 var y = d3.scaleBand()
-  .range([ height, 0 ])
+  .range([ 0, height ])
   .domain(myVars)
   .padding(0.01);
 svg.append("g")
@@ -85,8 +85,8 @@ d3.csv(sheet, function(data) {
     .data(data, function(d) {return d.Row+':'+d.Column;})
     .enter()
     .append("rect")
-      .attr("x", function(d) { return x(d.Row) })
-      .attr("y", function(d) { return y(d.Column) })
+      .attr("x", function(d) { return x(d.Column) })
+      .attr("y", function(d) { return y(d.Row) })
       .attr("width", 75)
       .attr("height", 50)
       .style("fill", function(d) { return myColor(d.NumberOfTimes)} )
@@ -96,3 +96,34 @@ d3.csv(sheet, function(data) {
     .on("mousemove", mousemove)
     .on("mouseleave", mouseleave)
 })
+
+var dataSlider = [];
+
+for (var i =1; i<35; i++){
+	dataSlider[i] = i;
+}
+
+// Step Slider
+  var sliderStep = d3
+    .sliderBottom()
+    .min(d3.min(dataSlider))
+    .max(d3.max(dataSlider))
+    .width(800)
+    .ticks(34)
+    .step(1)
+    .default(0.015)
+    .on('onchange', val => {
+      d3.select('p#value-step').text((val));
+    });
+
+  var gStep = d3
+    .select('div#slider-step')
+    .append('svg')
+    .attr('width', 1000)
+    .attr('height', 100)
+    .append('g')
+    .attr('transform', 'translate(30,30)');
+
+  gStep.call(sliderStep);
+
+  d3.select('p#value-step').text("Season "+(sliderStep.value()));
