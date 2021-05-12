@@ -5,11 +5,21 @@ button{
   font-size: 50px;
   background-color:#060CE9;
   color: white;
+  
 }
 body {
   background-color: #058BF5;
 }
 
 .align-items-center{
+  padding-left: 225px;
+}
 
+#container{
+  padding-left: 400px;
+}
+
+h2{
+  text-align: center;
+  color: white;
 }

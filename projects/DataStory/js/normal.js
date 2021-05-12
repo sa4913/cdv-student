@@ -30,14 +30,17 @@ var x = d3.scaleBand()
 svg.append("g")
   .attr("transform", "translate(0," + height + ")")
   .call(d3.axisBottom(x))
+	.attr("fill", "white")
 
-// Build X scales and axis:
+// Build Y scales and axis:
 var y = d3.scaleBand()
   .range([ 0, height ])
   .domain(myVars)
   .padding(0.01);
 svg.append("g")
-  .call(d3.axisLeft(y));
+  .call(d3.axisLeft(y))
+	.attr("fill", "white")
+	;
 
 // Build color scale
 var myColor = d3.scaleLinear()
@@ -63,6 +66,7 @@ d3.csv(sheet, function(data) {
     .style("border-radius", "5px")
     .style("padding", "5px")
 
+
   // Three function that change the tooltip when user hover / move / leave a cell
   var mouseover = function(d) {
     tooltip.style("opacity", 1)
@@ -78,6 +82,22 @@ d3.csv(sheet, function(data) {
   }
   var mouseleave = function(d) {
     tooltip.style("opacity", 0)
+  }
+
+	let dates = data.reduce(function(acc,d,i){
+    if(!acc.includes(d.Season)){
+      acc.push(d.Season)
+    }
+    return acc
+  }, [])
+
+	let currentSeason = sliderStep.value();
+  function filterYear(d, i){
+    if(d.Season == currentSeason){
+      return true;
+    }else{
+      return false;
+    }
   }
 
   // add the squares
@@ -97,24 +117,24 @@ d3.csv(sheet, function(data) {
     .on("mouseleave", mouseleave)
 })
 
-function triggerTransition(){
-	svg
-	.selectAll()
-	.data(sheet)
-	.transition()
-	.append("rect")
-		.attr("x", function(d) { return x(d.Row) })
-		.attr("y", function(d) { return y(d.Column) })
-		.attr("width", 75)
-		.attr("height", 50)
-		.style("fill", function(d) { return myColor(d.NumberOfTimes)} )
-		.style("stroke", "gray")
-
-	.on("mouseover", mouseover)
-	.on("mousemove", mousemove)
-	.on("mouseleave", mouseleave);
-	update();
-}
+// function triggerTransition(){
+// 	svg
+// 	.selectAll()
+// 	.data(sheet)
+// 	.transition()
+// 	.append("rect")
+// 		.attr("x", function(d) { return x(d.Row) })
+// 		.attr("y", function(d) { return y(d.Column) })
+// 		.attr("width", 75)
+// 		.attr("height", 50)
+// 		.style("fill", function(d) { return myColor(d.NumberOfTimes)} )
+// 		.style("stroke", "gray")
+//
+// 	.on("mouseover", mouseover)
+// 	.on("mousemove", mousemove)
+// 	.on("mouseleave", mouseleave);
+// 	update();
+// }
 
 var dataSlider = [];
 

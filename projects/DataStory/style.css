@@ -7,6 +7,13 @@ th{
   background-color: #060CE9;
 }
 
+h1{
+  text-align: center;
+  color: white;
+  font-family: 'Trebuchet MS', sans-serif;
+  font-size: 100px;
+}
+
 label{
   color:white;
   font-size: 80px;
@@ -92,7 +99,7 @@ td:hover span{
 }
 #ten1:hover:before{
   font-size: 12px;
-  content:"The contestant with the highest score at the end of the three rounds takes home their entire winnings and comes back the next day to play again. <br> 2nd and 3rd place receive $2000 and $1000, respectively.";
+  content:"The contestant with the highest score at the end of the three rounds takes home their entire winnings and comes back the next day to play again. 2nd and 3rd place receive $2000 and $1000, respectively.";
 }
 #two2:hover:before{
   font-size: 12px;

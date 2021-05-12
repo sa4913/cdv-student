@@ -30,14 +30,16 @@ var x = d3.scaleBand()
 svg.append("g")
   .attr("transform", "translate(0," + height + ")")
   .call(d3.axisBottom(x))
+	.attr("fill", "white")
 
-// Build X scales and axis:
+// Build Y scales and axis:
 var y = d3.scaleBand()
   .range([ 0, height ])
   .domain(myVars)
   .padding(0.01);
 svg.append("g")
-  .call(d3.axisLeft(y));
+  .call(d3.axisLeft(y))
+	.attr("fill", "white");
 
 // Build color scale
 var myColor = d3.scaleLinear()
