@@ -12,8 +12,14 @@ label{
   font-size: 80px;
 }
 
-select, button{
+select{
   font-size: 50px;
+}
+
+button{
+  font-size: 50px;
+  background-color:#060CE9;
+  color: white;
 }
 
 
@@ -110,43 +116,43 @@ td:hover span{
 }
 #two3:hover:before{
   font-size: 12px;
-  content:;
+  content:"Jeopardy has a special game series called Celebrity Jeopardy, which is a weeklong set of games of three different celebrities each night";
 }
 #four3:hover:before{
   font-size: 12px;
-  content:;
+  content:"The winnings from Celebrity Jeopardy are donated to charity, which makes gameplay different by always allowing the contestants to have at least finish with $1000";
 }
 #six3:hover:before{
   font-size: 12px;
-  content:;
+  content: "The famous late-night sketch comedy Saturday Night Live has played with Celebrity Jeopardy to usually feature Will Ferrel as host and different celebrities, typically one being Sean Connery";
 }
 #eight3:hover:before{
   font-size: 12px;
-  content:;
+  content:"Another type of game series is the Power Players week in which politicians and famous journalists compete against each other in a weeklong series";
 }
 #ten3:hover:before{
   font-size: 12px;
-  content:;
+  content:"IBM's Watson was on the show in 2011 for the very first human-versus-machine competition. Watson studied the same data source I am using to beat previous champions Ken Jennings and Brad Rutter.";
 }
 #two4:hover:before{
   font-size: 12px;
-  content:;
+  content:"This style of game is not the first version of Jeopardy, there were three versions of Jeopardy prior to this version";
 }
 #four4:hover:before{
   font-size: 12px;
-  content:;
+  content:"Although Jeopardy is an American television show, there are a little over 35 international versions of the show, including in China, Germany, Uzbekistan, and Mexico";
 }
 #six4:hover:before{
   font-size: 12px;
-  content:;
+  content:"Jeopardy has won numerous awards over the years including: 39 Daytime Emmys, a Peabody award (for encouraging, celebrating, and rewarding knowledge)";
 }
 #eight4:hover:before{
   font-size: 12px;
-  content:;
+  content:"In 1985, Jeopardy began having annual special events such as the Tournament of Champions, Teen Tournament, College Championship, Teachers Tournament, Celebrity Jeopardy, and Kids Week";
 }
 #ten4:hover:before{
   font-size: 12px;
-  content:;
+  content:"I grew up watching this game with my mom and my grandma, working on getting better a trivia so I could answer the questions along with them.";
 }
 #two5:hover:before{
   font-size: 12px;
@@ -162,7 +168,7 @@ td:hover span{
 }
 #eight5:hover:before{
   font-size: 12px;
-  content:;
+  content:"Daily Doubles can also be presented in the form of 'Audio' or 'Video Daily Doubles'";
 }
 #ten5:hover:before{
   font-size: 12px;
@@ -170,23 +176,23 @@ td:hover span{
 }
 #two6:hover:before{
   font-size: 12px;
-  content:;
+  content:"There are many different strategies for Jeopardy!";
 }
 #four6:hover:before{
   font-size: 12px;
-  content:;
+  content:"One strategy, called the 'Forrest Bounce Method' involves the contestant breaking the natural order of the game by bouncing around the board in order to disorient their fellow contestants";
 }
 #six6:hover:before{
   font-size: 12px;
-  content:;
+  content:"Another strategy is to answer the clues with the highest point values first so a contestant can have more to wager if they choose a Daily Double.";
 }
 #eight6:hover:before{
   font-size: 12px;
-  content:;
+  content:"James Holzhauer has the top ten single-day earnings because of his use of these two strategies as well as aggressive Daily Double wagering.";
 }
 #ten6:hover:before{
   font-size: 12px;
-  content:;
+  content:"Former host Alex Trebek and his staffers were annoyed by the 'Forrest Bounce Method' as it often leads to more error";
 }
 
 button:hover{

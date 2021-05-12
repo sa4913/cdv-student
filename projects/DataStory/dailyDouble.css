@@ -1,6 +1,15 @@
 button:hover{
   cursor: pointer;
 }
+button{
+  font-size: 50px;
+  background-color:#060CE9;
+  color: white;
+}
 body {
   background-color: #058BF5;
+}
+
+.align-items-center{
+
 }

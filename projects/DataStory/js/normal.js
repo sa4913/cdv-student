@@ -112,7 +112,8 @@ function triggerTransition(){
 
 	.on("mouseover", mouseover)
 	.on("mousemove", mousemove)
-	.on("mouseleave", mouseleave)
+	.on("mouseleave", mouseleave);
+	update();
 }
 
 var dataSlider = [];
